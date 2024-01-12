@@ -1,0 +1,113 @@
+body{
+    background-image:url(images/Logo.jpeg);
+    background-size: 100%;
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.formulario{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    height: 370px;
+}
+
+.formulario h1{
+    text-align: center;
+    padding:  0 0 5px 0;
+}
+
+.formulario form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+
+form .username{
+    position: relative;
+    border-bottom: 2px solid black;
+    margin: 30px 0;
+}
+
+.username input{
+    width: 100%;
+    padding: 0 5px;
+    height: 20px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.username label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: rgb(146, 145, 145);
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+}
+
+form .password{
+    position: relative;
+    border-bottom: 2px solid black;
+    margin: 30px 0;
+}
+
+.password input{
+    width: 100%;
+    padding: 0 5px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+.password label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    color: rgb(146, 145, 145);
+    transform: translateY(-50%);
+    transition: 0.6ms;
+    font-size: 16px;
+    pointer-events: none;
+}
+
+.recordar {
+    text-align: right;
+    font-size: 12px;
+}
+
+.recordar a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+input[type="submit"]{
+    width: 100%;
+    height: 40px;
+    border: 1px solid;
+    background-color: rgb(43, 144, 226);
+    border-radius: 25px;
+    font-size: 18px;
+    color:white;
+    cursor: pointer;
+    outline: none;    
+}
+
+.username input:focus ~ label,
+.username input:focus ~ label{
+    top: -6px;
+}
+.password input:focus ~ label,
+.password input:focus ~ label{
+    top: -6px;
+    
+}
