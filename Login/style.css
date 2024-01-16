@@ -11,15 +11,16 @@ body{
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 350px;
+    width: 280px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 50px;
     height: 370px;
 }
 
 .formulario h1{
     text-align: center;
     padding:  0 0 5px 0;
+    color: rgb(43, 144, 226);
 }
 
 .formulario form{
